@@ -1,0 +1,45 @@
+body {
+    background: cadetblue;
+    margin: 2px;
+    font-family: "Gowun Batang", system-ui;
+}
+
+header {
+    border-bottom: solid 1px white;
+    padding: 20px;
+    font-size: 30;
+}
+
+.chamada {
+    desplay: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 7%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos{
+    gap:10px;
+}
+
+.categoria {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.categoria-videos img {
+    opacity:0,5;
+}
+
+.categoria-videos img:hover {
+    opacity:1.0;
+}
